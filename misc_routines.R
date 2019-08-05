@@ -1,11 +1,11 @@
 
 ### Try to divide different groups of people based on the family structure and origin
-fam.Austrian <- master %>% filter(status=="Yes, with children." & Austrian!="No")
-fam.EU <- master %>% filter(status=="Yes, with children." & EU.citizen!="No")
-fam.non.EU <- master %>% filter(status=="Yes, with children." & EU.citizen=="No")
-noKid.Austrian <- master %>% filter(status=="Yes, I cohabit with a partner or other family members." & Austrian!="No")
-noKid.EU <- master %>% filter(status=="Yes, I cohabit with a partner or other family members." & EU.citizen!="No")
-noKid.non.EU <- master %>% filter(status=="Yes, I cohabit with a partner or other family members." & EU.citizen=="No")
+fam.Austrian <- master %>% filter(ftype=="Yes, with children." & Austrian!="No")
+fam.EU <- master %>% filter(ftype=="Yes, with children." & EU.citizen!="No")
+fam.non.EU <- master %>% filter(ftype=="Yes, with children." & EU.citizen=="No")
+noKid.Austrian <- master %>% filter(ftype=="Yes, I cohabit with a partner or other family members." & Austrian!="No")
+noKid.EU <- master %>% filter(ftype=="Yes, I cohabit with a partner or other family members." & EU.citizen!="No")
+noKid.non.EU <- master %>% filter(ftype=="Yes, I cohabit with a partner or other family members." & EU.citizen=="No")
 
 
 

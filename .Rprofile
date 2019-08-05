@@ -9,6 +9,7 @@ library(openxlsx)
 library(XLConnect)
 
 xlcFreeMemory()
+detach("package:stats", unload=TRUE)  # Conflicts for filter() namespace
 
 
 # Some helpful function definitions

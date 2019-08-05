@@ -50,5 +50,7 @@ Temporary Items
 Analysis.R.bak
 *.Rdata
 *.pper
-.Rproj.user/shared/notebooks/paths
-.Rproj.user/FD8254EA/sources/per/t/ABA2F3EF-contents
+*.Rproj
+*.bak
+.Rproj.user/*
+.Rhistory
